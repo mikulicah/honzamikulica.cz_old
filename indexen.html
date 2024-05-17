@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Honza Mikulica</title>
+        <meta charset="UTF8">
+        <style type="text/css" media="all, screen, projection, print, aural,tty"></style>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="zdroje/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="zdroje/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="zdroje/favicon/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="zdroje/favicon/favicon-16x16.png">
+        <link rel="manifest" href="zdroje/favicon/site.webmanifest">
+        
+        <meta name="msapplication-TileColor" content="#2d89ef">
+        <meta name="msapplication-TileImage" content="zdroje/favicon/mstile-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="msapplication-config" content="zdroje/favicon/browserconfig.xml"/>
+
+        <link rel="stylesheet" href="mystyle.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+        <style>
+        </style>
+    </head>
+<!--30.1.2023-->
+<body>
+    <header>
+        <a href="index.html"><img src="zdroje/logo.png" alt="Logo honza mikulica" title="Logo Honza Mikulica" width="140em">
+    </header>
+    <nav>
+        <a href="indexen.html">Home</a>
+        <a href="fotografieen.html">Photography</a>
+        <a href="animaceen.html">Animation</a>
+        <a href="tiskovetechnikyen.html">Printing techniques</a>
+        <a href="performanceen.html">Performance</a>
+        <a href="volneumenien.html">Fine arts</a>
+        <a href="aien.html">A.I. Art</a>
+        <a href="atden.html">SoBD</a>
+        <a href="omneen.html">About me</a>
+    </nav>
+
+    <div class="nav2">
+        <a href="indexen.html">Artist</a><p class="lomitka">/</p><a href="graphicen.html">Graphic</a>
+        <br>
+        <a href="index.html">CZ</a><p class="lomitka">/</p><a href="indexen.html">EN</a></id>
+    </div>
+
+    <p id="autor">&copy 2024 Honza Mikulica</p>
+    
+    <div class="content">
+        <div class="uvod">
+        <img class="mySlides" src="zdroje/home-case.jpg" alt="Case" title="Case" width="87%"></a>
+        <img class="mySlides" src="zdroje/home-sea.jpg" alt="Sea" title="Sea" width="87%"></a>
+        </div>
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2500); // Change image every 2 seconds
+        }
+        </script>
+
+<!--komentář-->
+</body>
+</html>

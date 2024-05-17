@@ -1,0 +1,282 @@
+body {
+  background-color: #f6f6f6 ;
+}
+
+header {
+  margin: 1.5em 0 0 1.5em;
+  /*border: 3px solid red;*/
+  position: fixed;
+}
+
+nav {
+  float: left;
+  margin: 7em 0 0 0;
+  width: 10em;
+  height: 25em;
+  padding: 1em;
+  position: fixed;
+  /*border: 3px solid green;*/
+  
+}
+
+nav a {
+  background-color: #f6f6f6;
+  color: #5a5a5a;
+  display: block;
+  padding: 6px;
+  margin-left: 15px;
+  text-align: left;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+nav a:hover {
+  background-color: #f6f6f6;
+  color: #039bd3;
+}
+
+.nav2 {
+  float: left;
+  margin: 35em 0 0 0;
+  width: 10em;
+  height: 3em;
+  padding: 1em;
+  position: fixed;
+  /*border: 3px solid blue;*/
+}
+
+.nav2 a {
+  background-color: #f6f6f6;
+  color: #5a5a5a;
+  padding-left:16px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.nav2 a:hover {
+  background-color: #f6f6f6;
+  color: #039bd3;
+}
+
+p.lomitka {
+  color: #5a5a5a;
+  display: inline;
+  padding-left: 1em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+#autor {
+  margin: 56em 0 0 1em;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 12px;
+  text-align: left;
+  text-decoration: none;  
+  color: rgb(0, 0, 0);
+  padding: 3px;
+  position: fixed;
+  /*border: 3px solid magenta;*/
+}
+
+div.content {
+  margin: 1em 0 0 13em;
+  float: left;
+  width: 80%;
+  padding: 10px;
+  height: 100%;
+  /*border: 3px solid yellow;*/
+}
+
+.uvod a {
+  margin: 0 0 0 4em;
+}
+
+
+div.content p{
+  margin: 0 5em 1em 0;
+}
+
+.mySlides {
+  margin: 0 0 0 4em;
+}
+
+div.fprojekt1 {
+  margin: 0 5em 0 5em;
+}
+
+.blockquote {
+  color: rgb(121, 171, 214);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: justify;
+  margin: 0 0 0 0;
+}
+div.fprojekt2 {
+  margin: 0 0em 0 10em;
+}
+
+h1 {
+  color: #5a5a5a;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+}
+
+h2 {
+  color: #5a5a5a;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 23px;
+}
+
+h3 a{
+  background-color: #f6f6f6;
+  color: #5a5a5a;
+  padding-left:16px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  margin: 0 50em 0 15.3em;
+}
+
+h3 a:hover {
+  background-color: #f6f6f6;
+  color: #039bd3; 
+}
+
+h4 a{
+  background-color: #f6f6f6;
+  color: #5a5a5a;
+  padding-left:px;
+  text-decoration: underline;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  margin: 0 0em 0 00em;
+}
+
+h4 a:hover {
+  background-color: #f6f6f6;
+  color: #039bd3; 
+}
+
+p {
+  color: #5a5a5a;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: justify;
+  margin: 0 0 0 0;
+}
+
+p a{
+  background-color: rgb(249, 251, 252);
+  color: #79abd6;
+  text-decoration: none;
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+i {
+  color: rgb(121, 171, 214);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+  text-align: justify;
+  margin: 0 0 0 0;
+}
+
+.kontakt {
+  margin: 0 25em 0 25em;
+  
+}
+
+.uspech {
+  display: inline-flex;
+  /*border: 3px solid black;*/
+}
+
+.oceneni {
+  margin-left: 7em;
+}
+
+.vystavy {
+  margin-left: 5em;
+}
+
+.work h1 {
+  margin: 3em 0 0 0;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*
+.myslides {
+margin: 0 0 0 19em;
+display:none;
+}
+
+.button-left{
+  margin: 0 0 0 40em;
+  border-radius: 7px;
+  border: 1px solid rgb(121, 171, 214) ;
+  background-color: white;
+}
+
+.button-right{
+  border-radius: 7px;
+  border: 1px solid rgb(121, 171, 214) ;
+  background-color: white;
+}
+*/
+
+
+
+
+/* komentář */
