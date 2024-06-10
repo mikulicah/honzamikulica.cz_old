@@ -279,17 +279,17 @@ i {
     /*border: 1px solid green;*/
   }
 
-#autor {
-  margin: 90% 0% 0% 30%;
-  font-family:'Courier New', Courier, monospace;
-  font-size: 12px;
-  text-align: left;
-  text-decoration: none;  
-  color: rgb(0, 0, 0);
-  padding: 3px;
-  position: static;
-  /*border: 3px solid magenta;*/
-}
+  #autor {
+    margin: 0% 25% 0% 30%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: left;
+    text-decoration: none;  
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    position: static;
+    /*border: 3px solid magenta;*/
+  }
 
 iframe {
   width: 100%; 
