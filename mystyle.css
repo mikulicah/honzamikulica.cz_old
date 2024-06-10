@@ -252,6 +252,18 @@ img {
     /*border: 1px solid green;*/
   }
 
+  div.content p{
+    width: 95%;
+    margin: 0% 0% 0% 0%;
+  }
+  div.fprojekt1 {
+    margin: 0% 0% 0% 0%;
+  }
+
+  div.fprojekt2 {
+    margin: 0% 0% 0% 0%;
+  }
+
 #autor {
   margin: 0% 25% 0% 30%;
   font-family:'Courier New', Courier, monospace;
