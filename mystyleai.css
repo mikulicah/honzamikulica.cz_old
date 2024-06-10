@@ -292,17 +292,29 @@ i {
     /*border: 1px solid green;*/
   }
 
-  #autor {
-    margin: 0% 25% 0% 30%;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 12px;
-    text-align: left;
-    text-decoration: none;  
-    color: rgb(0, 0, 0);
-    padding: 3px;
-    position: static;
-    /*border: 3px solid magenta;*/
+  div.content p{
+    width: 100%;
+    margin: 0% 0% 0% 0%;
   }
+  div.fprojekt1 {
+    margin: 0% 0% 0% 0%;
+  }
+
+  div.fprojekt2 {
+    margin: 0% 0% 0% 0%;
+  }
+
+#autor {
+  margin: 0% 25% 0% 30%;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 12px;
+  text-align: left;
+  text-decoration: none;  
+  color: rgb(0, 0, 0);
+  padding: 3px;
+  position: static;
+  /*border: 3px solid magenta;*/
+}
 
 iframe {
   width: 100%; 
@@ -315,6 +327,7 @@ iframe {
 }
 
 }
+
 /*
 .myslides {
 margin: 0 0 0 19em;
