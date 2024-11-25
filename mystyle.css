@@ -139,6 +139,17 @@ h2 {
   font-size: 23px;
 }
 
+h3 {
+  background-color: rgb(249, 251, 252);
+  color: rgb(121, 171, 214);
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  
+}
+
 h3 a{
   background-color: rgb(249, 251, 252);
   color: rgb(121, 171, 214);
@@ -186,12 +197,12 @@ i {
   margin: 0 25em 0 25em;
   
 }
-
+/*
 .uspech {
   display: inline-flex;
-  /*border: 3px solid black;*/
-}
-
+  /*border: 3px solid black;*
+}*/
+/*
 .oceneni {
   margin-left: 0em;
 }
@@ -200,7 +211,7 @@ i {
   margin-left: 5em;
   margin-right: 0em;
 }
-
+*/
 .work h1 {
   margin: 3em 0 0 0;
   text-align: center;
@@ -212,7 +223,11 @@ img {
   width: 32%;
 }
 
-
+#hp  {
+  width: 25%;
+  float: right;    
+  margin: 0 0 0 20px;
+  }
 
 
 

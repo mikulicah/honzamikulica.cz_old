@@ -237,8 +237,16 @@ img {
   line-height:auto;
 }
 
+#hp  {
+  width: 25%;
+  float: right;    
+  margin: 0 0 0 20px;
+  }
 
-
+.kontakt {
+  margin: 0 25em 0 25em;
+  
+}
 
 
 
