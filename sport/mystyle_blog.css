@@ -253,19 +253,20 @@ img {
 @media only screen and (max-width: 700px) {
   /* For mobile: */
   header {
-    margin: 0% 0% 0% 30%;
+    margin: 0% 0% 0% 0%;
     width: 100%;
     position: static;
     /*border: 1px solid red;*/
   }
   
   nav {
-    margin: 0% 0% 0% 30%;
+    margin: 0% 0% 0% 0%;
     width: 100%;
     position: static;
     width: 10em;
-    height: 25em;
-    padding: 1em;
+    height: 0em;
+    padding: 0em;
+    float: left;
     /*border: 1px solid red;*/
   }
 
@@ -279,8 +280,8 @@ img {
   }
   
   div.content {
-    width: 100%;
-    margin: 0% 0% 0% 0%;
+    width: 60%;
+    margin: 0% 0% 0% 30%;
     float: left;
     position: static;
     /*border: 1px solid green;*/
