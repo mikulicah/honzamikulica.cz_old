@@ -29,8 +29,8 @@ nav a {
   background-color: rgb(249, 251, 252);
   color: rgb(121, 171, 214);
   display: block;
-  padding: 6px;
-  margin-left: 15px;
+  padding: 6px 6px 6px 0px; /*6px 6px 6px 6px*/
+  margin-left: 10px; /*15*/
   text-align: left;
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
