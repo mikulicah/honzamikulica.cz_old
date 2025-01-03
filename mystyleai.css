@@ -198,6 +198,12 @@ i {
   margin: 0 0 0 0;
 }
 
+img {
+  height:auto;
+  line-height:auto;
+  width: 32%;
+}
+
 .kontakt {
   margin: 0 25em 0 25em;
   
