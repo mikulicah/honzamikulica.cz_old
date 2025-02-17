@@ -264,10 +264,15 @@ img {
   clear: both;
   }
 
-#hp2  {
+#hp2 {
   width: 16%;
   float: right;    
   margin: 0 150px 30px 150px;
+  }
+
+#hp3 {
+  width: 30%;
+  border: 1px solid #3c3c3c;
   }
 
 .kontakt {
@@ -275,6 +280,11 @@ img {
   
 }
 
+hr {
+  color: rgb(121, 171, 214);
+  border: 2px solid rgb(121, 171, 214);
+  border-radius: 10px;
+}
 
 
 
